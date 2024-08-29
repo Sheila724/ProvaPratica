@@ -5,12 +5,10 @@ export const updatePost = async (id, updatedData) => {
   try {
     // Modifique a estrutura do dado a ser enviado no PUT
     const response = await blogFetch.put(`/posts/${id}`, {
-      id: id, // Inclui o ID no nível superior
-      body: {  // Coloca o conteúdo dentro da chave "body"
-        title: updatedData.title,
-        body: updatedData.body,
-        userId: updatedData.userId
-      }
+      // Assumindo que `updatedData` contém as propriedades `title`, `price` e `images`
+      title: updatedData.title,
+      price: updatedData.price,
+      images: updatedData.images
     });
 
     return response.data; 

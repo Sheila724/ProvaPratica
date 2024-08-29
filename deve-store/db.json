@@ -1,0 +1,36 @@
+{
+    "posts": [
+      {
+        "id": "9528",
+        "body": {
+          "title": " Dica de Design: Escolhendo a Paleta de Cores Perfeita",
+          "body": "Ao criar um design, a escolha da paleta de cores é crucial. Opte por uma paleta que transmita a mensagem que você deseja comunicar e que seja agradável aos olhos. Ferramentas como Adobe Color e Coolors podem ajudar a encontrar combinações harmônicas. Quais são suas paletas de cores favoritas? 🌈",
+          "userId": 1
+        }
+      },
+      {
+        "id": "eb0a",
+        "body": {
+          "title": "📚 Curiosidade: A Evolução dos Computadores",
+          "body": "Você sabia que o primeiro computador pessoal foi lançado na década de 1970? Desde então, a tecnologia evoluiu a passos largos. Dos gigantescos mainframes aos smartphones ultra-rápidos, a evolução dos computadores tem sido fascinante. Quais inovações tecnológicas você mais espera para o futuro? 💻🚀",
+          "userId": 1
+        }
+      },
+      {
+        "id": "57db",
+        "body": {
+          "title": "📈 Desenvolvimento Pessoal: A Importância da Gestão do Tempo",
+          "body": "Gerenciar seu tempo de forma eficaz pode aumentar sua produtividade e reduzir o estresse. Use técnicas como a técnica Pomodoro, listas de tarefas e planejamento semanal para se manter no caminho certo. Como você organiza seu tempo para ser mais produtivo? ⏰📅",
+          "userId": 1
+        }
+      },
+      {
+        "id": "eb2c",
+        "body": {
+          "title": "🎬 Filme da Semana: \"A Origem\"",
+          "body": "Se você ainda não assistiu a \"A Origem\" (Inception), este é o momento! O filme, dirigido por Christopher Nolan, é um mergulho profundo na mente humana e no conceito de sonhos dentro de sonhos. Qual é o seu filme de ficção científica favorito? 🍿🔍",
+          "userId": 1
+        }
+      }
+    ]
+  }

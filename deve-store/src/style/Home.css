@@ -1,15 +1,16 @@
 .home h1{
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: roboto;
 }
 
 .post {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid #777;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
 }
 
 .post h2,
@@ -26,17 +27,19 @@
     color: #0e1217;
     border: 1px solid #fff;
     opacity: 1;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.6rem; /* Diminui o padding para reduzir o tamanho do botão */
     border-radius: 1rem;
-    max-width: 100px;
+    max-width: 80px; /* Diminui a largura máxima */
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
+    font-size: 0.8rem; /* Diminui o tamanho da fonte */
+    font-weight: roboto;
 }
 
 .btn:hover{
-    color: #fff;
-    background-color: #7b7f83;
+    color: #0e1217;
+    background-color: #fff;
 }
 
 .btn-delete{
@@ -50,41 +53,41 @@
     color: #fff;
 }
 
-.btn-uptade{
-    background-color: rgb(109, 109, 104);
-    color: #fff;
+.btn-update{
+    background-color: white;
+    color: #0e1217;
     border: none;
-    
 }
-.btn-uptade:hover{
+
+.btn-update:hover{
     background-color: #1a2027;
 }
 
 .home {
     padding: 20px;
-  }
+}
   
-  .product {
+.product {
     border: 1px solid #ccc;
     padding: 15px;
     margin-bottom: 15px;
     text-align: center;
-  }
-  
-  .product img {
-    width: 150px;
-    height: 150px;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
-  }
-  
-  .product h2 {
+}
+
+.product h2 {
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  .product p {
+}
+
+.product p {
     font-size: 16px;
     color: #333;
-  }
+}
   

@@ -1,0 +1,49 @@
+.new-post h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+form{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label{
+    margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.usabylit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 0 4rem;
+}
+
+.btn-criar{
+    background: rgb(4, 83, 4);
+    color: #fff;
+    border: 1px solid rgb(4, 83, 4);
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+}
+.btn-criar:hover{
+    background: rgb(3, 66, 3);
+    color: #fff;
+    border: 1px solid rgb(3, 66, 3);
+}
