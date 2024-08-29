@@ -1,7 +1,7 @@
 import '../style/Update.css';
 import { Link, useNavigate } from "react-router-dom";
 import { useParams } from 'react-router-dom';
-import deletePost from "../Api/update";
+import deletePost from "../Api/put";
 
 const Uptade = () => {
   const { id } = useParams(); // Obtém o parâmetro `id` da URL
