@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este é um projeto de loja virtual desenvolvido com React. O aplicativo permite a visualização, criação, atualização e exclusão de produtos. Os dados dos produtos são consumidos e manipulados através da [Platzi Fake Store API]([URL](https://fakeapi.platzi.com/en/rest/products/))
+Este é um projeto de loja virtual desenvolvido com React. O aplicativo permite a visualização, criação, atualização e exclusão de produtos. Os dados dos produtos são consumidos e manipulados através da [Platzi Fake Store API]([https://fakeapi.platzi.com/en/rest/products/]
 
 ## Tecnologias Utilizadas
 
@@ -45,7 +45,7 @@ Antes de executar o projeto, certifique-se de ter o Node.js e o npm (ou yarn) in
    - Crie um arquivo `.env` na raiz do projeto.
    - Adicione a URL da sua API no arquivo `.env`:
      ```env
-     REACT_APP_API_URL=[https://fakeapi.platzi.com/]
+     REACT_APP_API_URL=[https://api.escuelajs.co/api/v1]
      ```
 
 ## Executar o Projeto
